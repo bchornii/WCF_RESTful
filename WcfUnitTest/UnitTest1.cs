@@ -11,7 +11,7 @@ namespace WcfUnitTest
     {
         [TestMethod]
         //[HostType("ASP.NET")]
-        [AspNetDevelopmentServer("ProductService", @"D:\WORK\Shared\Wcf_Rest\MyRESTService\MyRESTService")]
+        [AspNetDevelopmentServer("ProductService", @"D:\WORK\Shared\WCF_RESTful\MyRESTService")]
         public void TestMethod1()
         {
             
