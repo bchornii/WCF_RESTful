@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRESTService", "MyRESTService\MyRESTService.csproj", "{9299F09F-8505-4E37-8C98-DF3CA048E6D0}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf.DAL", "Wcf.DAL\Wcf.DAL.csproj", "{535B4A85-5D98-4443-95CA-B342B2C60716}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql.DAL", "Sql.DAL\Sql.DAL.csproj", "{C9431CF9-594E-4456-871B-2832FB020502}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceUtil", "ServiceUtil\ServiceUtil.csproj", "{7862915F-CA34-4E1B-B994-3EBD73BB13B0}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfUnitTest", "WcfUnitTest\WcfUnitTest.csproj", "{C30103DF-05EB-4129-B486-8E3F4177CE4C}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9299F09F-8505-4E37-8C98-DF3CA048E6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9299F09F-8505-4E37-8C98-DF3CA048E6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9299F09F-8505-4E37-8C98-DF3CA048E6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9299F09F-8505-4E37-8C98-DF3CA048E6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535B4A85-5D98-4443-95CA-B342B2C60716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535B4A85-5D98-4443-95CA-B342B2C60716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535B4A85-5D98-4443-95CA-B342B2C60716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535B4A85-5D98-4443-95CA-B342B2C60716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9431CF9-594E-4456-871B-2832FB020502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9431CF9-594E-4456-871B-2832FB020502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9431CF9-594E-4456-871B-2832FB020502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9431CF9-594E-4456-871B-2832FB020502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7862915F-CA34-4E1B-B994-3EBD73BB13B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7862915F-CA34-4E1B-B994-3EBD73BB13B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7862915F-CA34-4E1B-B994-3EBD73BB13B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7862915F-CA34-4E1B-B994-3EBD73BB13B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30103DF-05EB-4129-B486-8E3F4177CE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30103DF-05EB-4129-B486-8E3F4177CE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30103DF-05EB-4129-B486-8E3F4177CE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30103DF-05EB-4129-B486-8E3F4177CE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndGlobal

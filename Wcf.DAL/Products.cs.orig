@@ -1,0 +1,20 @@
+﻿using System.Runtime.Serialization;
+
+namespace Wcf.DAL
+{
+    [DataContract]
+    public class Products
+    {
+        [DataMember]
+        public int ProductId { get; set; }        
+        [DataMember]
+        public string ProductName { get; set; }
+        [DataMember]
+        public int SupplierId { get; set; }
+        [DataMember]
+        public int CategoryId { get; set; }
+        [DataMember]
+        public decimal UnitPrice { get; set; }
+        
+    }
+}
